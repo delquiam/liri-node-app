@@ -98,7 +98,7 @@ function doWhatItSays() {
         var dataArr = data.split(",");
         // console.log(dataArr[1]);
         if (dataArr[0] == "spotify-this-song") {
-            spotifySongs(dataArr[1]);
+            spotifySongs(dataArr[1].slice(1,-1));
         }
         else if (dataArr[0] == "movie-this") {
             omdbThis(dataArr[1]);
