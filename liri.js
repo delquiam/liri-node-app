@@ -30,7 +30,7 @@ function concertThis(input) {
     axios.get(bandsInTownURL)
         .then(function (response) {
             var data = response.data;
-            console.log(data);
+            // console.log(data);
             for (var i = 0; i < data.length; i++) {
                 console.log("Venue: " + data[i].venue.name);
                 console.log("Country: " + data[i].venue.country);
@@ -96,9 +96,9 @@ function doWhatItSays() {
         }
 
         var dataArr = data.split(",");
-
+        // console.log(dataArr[1]);
         if (dataArr[0] == "spotify-this-song") {
-            spotifySongs(dataArr[1].slice(1, -1));
+            spotifySongs(dataArr[1]);
         }
         else if (dataArr[0] == "movie-this") {
             omdbThis(dataArr[1]);
