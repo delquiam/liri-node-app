@@ -14,16 +14,16 @@ This is what it looks like when **LIRI** is asked to 'concert-this'
 
 The following 2 images are of **LIRI**'s command 'spotify-this-song'.  The first is when no song title is given, making 'The Sign' the default song, and the second is when a song title is given.
 
-![spotdefault](assets/images/spotifydefault.png)
+![spotdefault](assets/images/spotifydefault.PNG)
 
-![spot](assets/images/spotify.png)
+![spot](assets/images/spotify.PNG)
 
 The next 2 images are of the command 'movie-this'.  The first image is when a movie title isn't given, and the default is Mr. Nobody, and the second image is when a movie title is given.  
 
-![moviedef](assets/images/moviedefault.png)
+![moviedef](assets/images/moviedefault.PNG)
 
-![movie](assets/images/movie.png)
+![movie](assets/images/movie.PNG)
 
 The last image is the 'do-what-it-says' command.  This is where **LIRI** takes the text of a random file and uses it to call one of **LIRI**'s commands.
 
-![random](assets/images/dowhatitsays.png)
+![random](assets/images/dowhatitsays.PNG)
